@@ -15,3 +15,4 @@ test('SQS Queue and SNS Topic Created', () => {
   });
   template.resourceCountIs('AWS::SNS::Topic', 1);
 });
+
